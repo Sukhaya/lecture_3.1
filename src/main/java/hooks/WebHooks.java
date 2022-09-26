@@ -3,7 +3,7 @@ package hooks;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import utils.Configuration;
+import com.codeborne.selenide.Configuration;
 
 public class WebHooks {
     @BeforeAll()
